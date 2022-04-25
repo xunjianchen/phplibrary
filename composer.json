@@ -1,0 +1,21 @@
+{
+    "name": "xunjianchen/phplibrary",
+    "description": "personal php class library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phplibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "xunjianchen",
+            "email": "xunjianchen@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability": "stable"
+}
